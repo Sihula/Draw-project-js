@@ -5,11 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Random draw</title>
 </head>
 
 <body>
+  <div class="generator">
+    <div class="generator__title">Random Draw</div>
+    <div id="result" class="generator__result">
+      <div class="generator__result-title">Winner!</div>
+      <div id="name" class="generator__winner-name"></div>
+      <div id="nickname" class="generator__winner-nickname"></div>
+    </div>
+    <div id="btn" class="generator__btn">Choise winner!</div>
+  </div>
+
+
+
+  <script src="data.js"></script>
   <script src="main.js"></script>
 </body>
 

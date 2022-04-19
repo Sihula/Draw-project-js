@@ -1,0 +1,59 @@
+:root{
+  --gradient:linear-gradient(to right bottom,
+  #79ce7b, #3fd6b6);
+  --gradient1:linear-gradient(to right bottom,
+  #14b9de, #9d46eec5);
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+.generator{
+  text-align: center;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 16px;
+  background: var(--gradient1);
+}
+.generator__title{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.generator__btn{
+  padding: 16px 32px;
+  background-color: #999;
+  border-radius: 8px;
+  background: var(--gradient);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.generator__result-title{
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.generator__winner-name,
+.generator__winner-nickname{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: orange
+}
+.generator__result{
+  display: none;
+}
